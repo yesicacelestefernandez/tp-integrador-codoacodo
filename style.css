@@ -1,0 +1,63 @@
+.navbar-brand img{
+    max-width: 100px;
+
+}
+
+.navbar-dark .navbar-nav .btn-tickets { color: #25a342; }
+
+@media (min-width: 992px) {
+  .btn-compra-tickets {
+    border: 1px solid transparent;
+    border-radius: .8rem;
+  }
+  .btn-tickets:hover,
+  .navbar-dark .navbar-nav .btn-tickets.active {
+    background-color: #024211;
+  }
+}
+
+.carousel-iner{
+  
+
+  width: 300px;
+  position: static;
+  display: flex;
+  overflow: scroll;
+  scroll-snap-align: x mandatory;
+  
+}
+  
+
+.imagen-carousel{
+
+ height: 600px;
+  width: 100%;
+  left: 0;
+  position: sticky;
+  object-fit: cover;
+  border-radius: 5px;
+  scroll-snap-align: center;
+}
+
+.btn .btn-color {
+  background-color: #53fb7a;
+
+}
+
+
+
+
+.footer-custom{
+  background: #1d3c4e;
+  color: #fff;
+  padding: 1.5rem;
+
+}
+.footer-custom .nav-link {
+  color: #fff;
+  text-align: center;
+
+}
+@media (min-width: 992px) {
+  .footer-custom .nav-link span { display: block; }
+}
