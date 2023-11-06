@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
 .navbar-brand img{
     max-width: 100px;
 
@@ -60,4 +67,9 @@
 }
 @media (min-width: 992px) {
   .footer-custom .nav-link span { display: block; }
+}
+.descuentos{
+ margin-top: 100px;
+
+
 }
